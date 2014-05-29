@@ -1,9 +1,8 @@
 pTween 
 ======
-The worlds smallest tweening library for Unity
-- 28 useful lines of code written by [Peter Bruun](http://www.twitter.com/ptrbrn)
+The worlds smallest tweening library for Unity. 28 useful lines of code written by [Peter Bruun](http://www.twitter.com/ptrbrn)
 
-How to use
+### How to use
 
 ```cs
 // 2 second fade audio in.
