@@ -12,7 +12,7 @@ StartCoroutine(pTween.To(2f, t => {
 
 // Move game object and change color in 5 seconds.
 StartCoroutine(pTween.To(5f, t => { 
-	transform.position = Vector3.Lerp(new Vector3(0f, 0f, 0f), new Vector3(10f, 10f, 0f));
+	transform.position = Vector3.Lerp(new Vector3(0f, 0f, 0f), new Vector3(10f, 10f, 0f), t);
 	renderer.material.color = Color.Lerp(Color.white, Color.red, t);
 }));
 
